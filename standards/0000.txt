@@ -1,6 +1,11 @@
 0000: Cardinal
 
 4 hex digits = version
+
 4 hex digits = width
 4 hex digits = height
-(width * height * 2) hex digits = pairs of 00 to ff, denoting color
+
+for each changed pixel:
+  4 hex digits = x
+  4 hex digits = y
+  pairs of 00 to ff, denoting color
