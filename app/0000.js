@@ -36,7 +36,7 @@ function drawBoard(canvas, file) {
 
 		// read the color
 		x = parseInt(file.substr(10 + (8 * i), 3), 16);
-		if (!x)
+		if (x === "")
 			break;
 		y = parseInt(file.substr(13 + (8 * i), 3), 16);
 		color = parseInt(file.substr(16 + (8 * i), 2), 16);
