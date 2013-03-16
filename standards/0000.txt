@@ -5,7 +5,7 @@
 4 hex digits = width
 4 hex digits = height
 
-for each changed pixel:
+for each changed pixel (max 64):
   4 hex digits = x
   4 hex digits = y
   pairs of 00 to ff, denoting color
