@@ -2,10 +2,10 @@
 
 4 hex digits = version
 
-4 hex digits = width
-4 hex digits = height
+3 hex digits = width
+3 hex digits = height
 
 for each changed pixel (max 64):
-  4 hex digits = x
-  4 hex digits = y
+  3 hex digits = x
+  3 hex digits = y
   pairs of 00 to ff, denoting color
